@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Safari</title>
+</head>
+<body>
+    <section class="">
+        <div class="game-board grid gap-1 p-1 grid-rows-7 w-[100vw] h-[80vh]">
+            <div class="row flex gap-1 " data-row-position="6"></div>
+            <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="5"></div>
+            <div class="row flex gap-1 " data-row-position="4"></div>
+            <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="3"></div>
+            <div class="row flex gap-1 " data-row-position="2"></div>
+            <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="1"></div>
+        </div>  
+        <div class=" flex justify-around p-3">
+            <div class=" playerOne-message-box w-[150px]">PlayerOne</div>
+            <div class=" flex flex-col items-center w-[150px]">
+                <p id="placeholder" class=" flex justify-center items-center h-20 w-20 border-2 border-solid border-[#E28413] rounded-lg text-3xl">
+  
+                </p>
+                <button id="button" class=" dice-btn bg-[#E28413] rounded-md text-[#000022] p-2 uppercase w-36 cursor-pointer">Roll Dice</button>
+            </div>
+            <div class=" playerTwo-message-box w-[150px]">PlayerTwo</div>
+        </div>
+        
+    </section>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
