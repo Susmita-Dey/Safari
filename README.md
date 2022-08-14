@@ -1,5 +1,12 @@
-![Screenshot 2022-08-14 101027](https://user-images.githubusercontent.com/44545745/184528385-cbdfe517-f4a6-4ccd-be94-a7f95bc75f00.png)
+# Safari
+Safari is a web-based board game similar to Snakes and Ladders game but it's based on our Indian culture.
 
+## Screenshots :camera:
+
+![Safari](https://user-images.githubusercontent.com/79099734/184533544-6178e2c4-f10e-492c-8056-4c352b77a359.png)
+![Safari-1](https://user-images.githubusercontent.com/79099734/184533547-7b4ce0c4-bc24-40ab-9b29-f305c8b095b3.png)
+![Safari-2](https://user-images.githubusercontent.com/79099734/184533554-4c150ea0-5ac4-460d-aa1f-61aaf2ffeda5.png)
+![Screenshot 2022-08-14 101027](https://user-images.githubusercontent.com/44545745/184528385-cbdfe517-f4a6-4ccd-be94-a7f95bc75f00.png)
 
 ##  🌟 Inspiration
 
