@@ -1,3 +1,6 @@
+![Screenshot 2022-08-14 101027](https://user-images.githubusercontent.com/44545745/184528385-cbdfe517-f4a6-4ccd-be94-a7f95bc75f00.png)
+
+
 ##  🌟 Inspiration
 
 Our biggest inspiration has been **Independence day** which is around the corner. India will celebrate its 75th Independence day. It is the day that reflects our pride and solidarity in India's diversity and its rich culture and heritage.
