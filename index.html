@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +10,143 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Safari</title>
 </head>
+
 <body>
-    <section class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <!--     the below code is styled one but missing the new update -->
+    <!--   <section class="container mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <div class="game-board grid gap-1 p-1 grid-rows-7 w-[100vw] h-[80vh]">
+      <div class="row flex gap-1  " data-row-position="6"></div>
+      <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="5"></div>
+      <div class="row flex gap-1 " data-row-position="4"></div>
+      <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="3"></div>
+      <div class="row flex gap-1 " data-row-position="2"></div>
+      <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="1"></div>
+    </div>
+    <div class=" flex justify-around p-3">
+      <div class=" playerOne-message-box w-[150px]">PlayerOne</div>
+      <div class=" flex flex-col items-center w-[150px] mt-[15px]" >
+        <p id="placeholder"
+          class=" flex justify-center items-center h-20 w-20 border-2 border-solid border-[#E28413] rounded-lg text-3xl">
+
+        </p>
+        <button id="button"
+          class=" dice-btn bg-[#E28413] rounded-md text-[#000022] p-2 uppercase w-36 cursor-pointer">Roll Dice</button>
+      </div>
+      <div class=" playerTwo-message-box w-[150px]">PlayerTwo</div>
+    </div>
+
+  </section> -->
+    <!-- The below code is updated with form but missing styles -->
+    <section class="relative">
+
         <div class="game-board grid gap-1 p-1 grid-rows-7 w-[100vw] h-[80vh]">
-            <div class="row flex gap-1  " data-row-position="6"></div>
+            <div class="row flex gap-1 " data-row-position="6"></div>
             <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="5"></div>
             <div class="row flex gap-1 " data-row-position="4"></div>
             <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="3"></div>
             <div class="row flex gap-1 " data-row-position="2"></div>
             <div class="row flex gap-1 flex-row-reverse justify-end " data-row-position="1"></div>
-        </div>  
+        </div>
         <div class=" flex justify-around p-3">
             <div class=" playerOne-message-box w-[150px]">PlayerOne</div>
             <div class=" flex flex-col items-center w-[150px]">
-                <p id="placeholder" class=" flex justify-center items-center h-20 w-20 border-2 border-solid border-[#E28413] rounded-lg text-3xl">
-  
+                <p id="placeholder"
+                    class=" flex justify-center items-center h-20 w-20 border-2 border-solid border-[#E28413] rounded-lg text-3xl">
+
                 </p>
-                <button id="button" class=" dice-btn bg-[#E28413] rounded-md text-[#000022] p-2 uppercase w-36 cursor-pointer">Roll Dice</button>
+                <button id="button"
+                    class=" dice-btn bg-[#E28413] rounded-md text-[#000022] p-2 uppercase w-36 cursor-pointer">Roll
+                    Dice</button>
             </div>
             <div class=" playerTwo-message-box w-[150px]">PlayerTwo</div>
         </div>
-        
+        <!-- fsdf -->
+        <section class="text-gray-600 body-font bg-[url('../Assets/images/uttarakhand.jpg')] bg-center bg-no-repeat
+         bg-cover absolute w-[60vw] h-[70vh] top-0 left-0 right-0 bottom-0 m-auto hidden " id="bg-section">
+            <div class="container px-5 py-12 mx-auto card backdrop-blur-sm">
+                <div class="flex flex-col text-center w-full mb-12">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
+                        Let's Explore
+                    </h1>
+                </div>
+                <form id="survey-form" action="#" method="POST">
+                    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                        <div class="container bg-green-100">
+                            <div class="flex flex-col">
+                                <div class="flex-auto items-center m-5">
+                                    <p class="text-blue-800 text-bold text-lg" id="question-one">1. What is the capital
+                                        of Uttrakhand?</p>
+                                    <div class="ml-5" id="question-one-options1">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language"
+                                            value="Dehradun">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Dehradun</label>
+                                    </div>
+                                    <div class="ml-5" id="question-one-options2">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language"
+                                            value="Darjeeling">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Darjeeling</label>
+                                    </div>
+                                    <div class="ml-5" id="question-one-options3">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language"
+                                            value="Bilaspur">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Bilaspur</label>
+                                    </div>
+                                </div>
+                                <div class="flex-auto items-center m-5">
+                                    <p class="text-blue-800 text-bold text-lg" id="question-two">2. What is the former
+                                        name of Uttrakhand?
+                                    </p>
+                                    <div class="ml-5" id="question-two-options1">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language1"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">1st November</label>
+                                    </div>
+                                    <div class="ml-5" id="question-two-options2">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language1"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">31st January</label>
+                                    </div>
+                                    <div class="ml-5" id="question-two-options3">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language1"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">29th February</label>
+                                    </div>
+                                </div>
+                                <div class="flex-auto items-center m-5">
+                                    <p class="text-blue-800 text-bold text-lg" id="question-three">3. Which dance of
+                                        Haryana resembles
+                                        Bhangra
+                                        dance of Punjab?</p>
+                                    <div class="ml-5" id="question-three-options1">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language2"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Dhamal</label>
+                                    </div>
+                                    <div class="ml-5" id="question-three-options2">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language2"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Kamal</label>
+                                    </div>
+                                    <div class="ml-5" id="question-three-options3">
+                                        <input type="radio" class="h-3 w-3 text-gray-600" id="html" name="fav_language2"
+                                            value="HTML">
+                                        <label for="html" class="ml-1 text-blue-600 text-base">Jhumar Dance</label>
+                                    </div>
+                                </div>
+
+                                <div class="p-4 w-full">
+                                    <button type="button"
+                                        class=" submit-quiz flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                </form>
+        </section>
+        <!-- dfsd -->
+
     </section>
     <script type="module" src="main.js"></script>
 </body>
-</html>  
+
+</html>
